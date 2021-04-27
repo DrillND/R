@@ -119,5 +119,7 @@ mode(student);class(student)
 height <- data.frame(id=c(1,2),h=c(180,175))
 weight <- data.frame(id=c(1,2),w=c(80,75))
 
-user <- merge(height,weight,by.x="id",by.y="id")
+user <- merge(height,weight,by.x="id")#,by.y="id")
 user
+
+
